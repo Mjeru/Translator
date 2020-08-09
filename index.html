@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Переводчик</title>
+    <script src="script/main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">Переводчик</h1>
+        <span>From</span>
+        <select class="firstSelector">
+            <option value="ru">Русский</option>
+            <option value="en">Английский</option>
+        </select>
+        <span>To</span>
+        <select class="secondSelector">
+            <option value="ru">Русский</option>
+            <option value="en" selected>Английский</option>
+        </select>
+        <div>
+            <textarea class="firstWorkSpace" placeholder="Введите текст"></textarea>
+            <textarea class="secondWorkSpace"></textarea>
+        </div>
+        <div class="button-container">
+            <button class="translateButton">Перевести</button>
+            <!-- <button class="button-save disabled" disabled>Сохранить</button>
+            <button class="button-cancel disabled" disabled>Отмена</button> -->
+        </div>
+    </div>
+</body>
+
+</html>
